@@ -42,23 +42,26 @@
 
 
 h2.ladoesquerdo{
+
     float: left;
     margin-left: 30px;
 }
+
 h2.ladodireito{
     float: right;
     margin-right: 30px;
 }
 
 h2{
-   border: solid var(--cor1) 2px;
-   width: 30%;
-   text-align: center;
     color: var(--cor1);
     font-family: var(--fontmenu);
     font-weight: 100;
     border-radius: 30px;
     font-size: 1.2em;
+    border: solid var(--cor1) 2px;
+    width: 30%;
+    text-align: center;
+    
 
 }
 p{
@@ -209,9 +212,9 @@ nav .linksmenu a:hover{
     align-items: center;
 }
 .oquefaco .conteudofaco{
-   background-image: url(../imagens/balao.png);
-   background-size: cover;
-   background-position: center center;
+    background-image: url(../imagens/balao.png);
+    background-size: cover;
+    background-position: center center;
     width: 80%;
     height: 400px;
     display: flex;
