@@ -1,0 +1,305 @@
+
+@charset "utf-8";
+
+
+/*Importações */
+
+/* Importação de fontes internas*/
+@font-face {
+    font-family:'HB';
+    src: url('../fonte/HB.otf') format('opentype');
+
+    font-family: 'KOMIKJI';
+    src: url('../fonte/KOMIKJI_.ttf') format('truetype');
+}
+@font-face {
+    font-family:'HB';
+    src: url('../fonte/HB.otf') format('opentype');
+}
+
+
+
+/*Concigurações gerais*/
+
+:root{
+
+    --cor1: #000000;
+    --cor2: #e53939;
+    --cor3: #ffffff;
+
+    --fontmenu: 'HB', cursiva;
+    --fontconteudo: 'KOMIKJI', cursiva;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+h2.ladoesquerdo{
+    float: left;
+    margin-left: 30px;
+}
+h2.ladodireito{
+    float: right;
+    margin-right: 30px;
+}
+
+h2{
+   border: solid var(--cor1) 2px;
+   width: 30%;
+   text-align: center;
+    color: var(--cor1);
+    font-family: var(--fontmenu);
+    font-weight: 100;
+    border-radius: 30px;
+    font-size: 1.2em;
+
+}
+p{
+    font-family: var(--fontconteudo);
+    font-size: 0.9em;
+    color: var(--cor1);
+    text-align: center;
+}
+ li{
+    font-family: var(--fontconteudo);
+    font-size: 0.7;
+ }
+
+/*Configuração para a div com imagem para os dispositivos móveis*/
+
+
+
+.imagemmenu{
+    background-color: var(--cor2);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+
+
+/* Diz respeito a todo o meu de navegação.*/
+nav{
+    padding: 5px 0px;
+    height: 100px;
+}
+nav ul{
+    width: 100%;
+    background-color: var(--cor2);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:not(:last-child){
+    margin-right: -30px;
+}
+
+nav li{
+    background-color: var(--cor3);
+    display: inline-block;
+    width: 19%;
+    border: solid var(--cor1) 2px;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+nav li:hover{
+    background-color: var(--cor1);
+    border: solid var(--cor3) 2px;
+    transition: 1s;
+}
+nav .itensdecima{
+    transform: translate(0px, -30px);
+   
+}
+nav .itensdebaixo{
+    transform: translate(0px, 30px);
+  
+}
+
+nav a{
+  
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: var(--fontconteudo);
+  
+}
+nav .linksmenu a:hover{
+    color: var(--cor3);
+}
+
+
+/* secão Dados pessoais da nossa página*/
+.quemsou {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.quemsou .fundo{
+    background-image: url(../imagens/raio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 80%;
+   
+}
+.quemsou .fundo .ficha{
+    background-color: var(--cor1);
+    padding: 8px 0px 0px 0px;
+    height: 220px;
+    width: 35%;
+    transform: translate(-39px, -19px);
+}
+
+.quemsou .fundo .ficha ul{
+  
+    margin: 10px 0px 0px 70px;
+}
+
+.quemsou .fundo .ficha ul li{
+
+    color: var(--cor1);
+    list-style: none;
+    padding: 2px 0px;
+    width: 300px;
+    margin: 0px 0px 8px 0px;
+    background-color: var(--cor3);
+    border: solid var(--cor1) 2px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.quemsou .fundo .foto{
+    height: 200px;
+   
+}
+.quemsou .fundo .foto img{
+    height: 250px;
+    float: right;
+    margin-right: 20px;
+    transform: translate(0px, -10px);
+}
+
+/* secão o que faço*/
+.oquefaco{
+   
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oquefaco .conteudofaco{
+   background-image: url(../imagens/balao.png);
+   background-size: cover;
+   background-position: center center;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oquefaco .conteudofaco .descricao{
+    width: 60%;
+    height: 200px;
+    transform: translate( -10px, -20px);
+    
+
+}
+
+/* secãop paixões*/
+
+
+.paixoes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paixoes .slide{
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+.paixoes .slide swiper-container {
+    width: 100%;
+    height: 100%;
+   
+  }
+
+.paixoes .slide swiper-container swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paixoes .slide swiper-container swiper-slide .cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90%;
+   width: 50%;
+   border: dashed var(--cor1) 7px;
+   background-size: cover;
+   background-position: center center;
+ }
+  
+ .card1{
+    background-image: url(../imagens/raio.png);
+ }
+ .card2{
+    background-image: url(../imagens/6.png);
+ }
+ .card3{
+    background-image: url(../imagens/5.png);
+ }
+ .card4{
+    background-image: url(../imagens/3.png);
+ }
+ .card5{
+    background-image: url(../imagens/4.png);
+ }
+ .card6{
+    background-image: url(../imagens/balao.png);
+ }
+ .card7{
+    background-image: url(../imagens/9.png);
+ }
+
+ 
+ .paixoes .slide swiper-container swiper-slide .cards p{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    padding: 7px;
+    font-size: 15px;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
