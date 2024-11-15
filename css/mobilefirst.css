@@ -31,6 +31,10 @@
     --fontconteudo: 'KOMIKJI', cursiva;
     
 }
+:host {
+    --swiper-theme-color: #ff0097;
+}
+
 
 *{
     margin: 0px;
@@ -164,6 +168,7 @@ nav .linksmenu a:hover{
     width: 80%;
    
 }
+
 .quemsou .fundo .ficha{
     background-color: var(--cor1);
     padding: 8px 0px 0px 0px;
@@ -306,3 +311,126 @@ nav .linksmenu a:hover{
  }
 
 
+
+
+
+ /* Temos aqui a seção motivação */
+
+.motvacao{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 1020px;
+    
+   
+ }
+
+ .bloco1, .bloco2,  .bloco3, .bloco4{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+ 
+ .bloco3, .bloco4{
+    width: 100%;
+    height: 150px;
+ }
+
+ .cont, .cont2, .cont3{
+    background-color: var(--cor1);
+    width: 45%;
+    height: 100%;
+ }
+
+ .cont2{
+    width: 80%;
+    height: 90px;
+ }
+
+ .cont3{
+    width: 96%;
+    height: 100%;
+ }
+
+.cont:not(:last-child), .cont2:not(:last-child){
+    margin-right: 30px;
+}
+
+.bloquinho1, .bloquinho2, .bloquinho3, .bloquinho4, .bloquinho5, .bloquinho6, .bloquinho7{
+    background-image: url(../imagens/12.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bloquinho2{
+    background-image: url(../imagens/13.png);
+}
+
+.bloquinho3, .bloquinho7, .bloquinho4{
+    background-image: none;
+    background-color: var(--cor2);
+}
+
+.bloquinho3{
+    background-image: url(../imagens/16.png);
+}
+.bloquinho6{
+    background-image: url(../imagens/14.png);
+
+}
+
+.bloquinho5{
+    background-image: url(../imagens/15.png);
+
+}
+
+.motvacao p{
+    color: var(--cor3);
+    background-color: var(--cor2);
+    width: 60%;
+    padding: 10px;
+    height: 40%;
+    border: dashed var(--cor3) 2px;
+
+}
+
+.motvacao .bloco3  p, .bloquinho4 p{
+    border: none;
+}
+
+/* Temos aqui a seção contato */
+
+
+.contato{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    background-color: var(--cor2);
+    background-image: url(../imagens/9.png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celular{
+    background-image: url(../imagens/telefono.png);
+    width: 50%;
+    height: 90%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.celular iframe{
+    width: 60%;
+    height: 60%;
+    background-color: var(--cor2);
+}
