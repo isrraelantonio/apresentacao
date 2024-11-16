@@ -6,12 +6,11 @@
 
 /* Importação de fontes internas*/
 @font-face {
-    font-family:'HB';
-    src: url('../fonte/HB.otf') format('opentype');
 
     font-family: 'KOMIKJI';
     src: url('../fonte/KOMIKJI_.ttf') format('truetype');
 }
+
 @font-face {
     font-family:'HB';
     src: url('../fonte/HB.otf') format('opentype');
@@ -21,6 +20,10 @@
 
 /*Concigurações gerais*/
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 :root{
 
     --cor1: #000000;
@@ -64,20 +67,27 @@ h2{
     border-radius: 30px;
     font-size: 1.2em;
     border: solid var(--cor1) 2px;
-    width: 30%;
+    width: 40%;
+    margin-bottom: 20px;
     text-align: center;
     
 
 }
+
 p{
     font-family: var(--fontconteudo);
     font-size: 0.9em;
     color: var(--cor1);
     text-align: center;
 }
+
  li{
     font-family: var(--fontconteudo);
     font-size: 0.7;
+ }
+
+ a{
+    text-decoration: none;
  }
 
 
@@ -94,7 +104,7 @@ p{
 
 .imagemmenu{
     background-color: var(--cor2);
-    height: 90px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -112,6 +122,7 @@ nav{
     padding: 5px 0px;
     height: 100px;
 }
+
 nav ul{
     width: 100%;
     background-color: var(--cor2);
@@ -134,15 +145,18 @@ nav li{
     text-align: center;
     border-radius: 50%;
 }
+
 nav li:hover{
     background-color: var(--cor1);
     border: solid var(--cor3) 2px;
     transition: 1s;
 }
+
 nav .itensdecima{
     transform: translate(0px, -30px);
    
 }
+
 nav .itensdebaixo{
     transform: translate(0px, 30px);
   
@@ -155,6 +169,7 @@ nav a{
     font-family: var(--fontconteudo);
   
 }
+
 nav .linksmenu a:hover{
     color: var(--cor3);
 }
@@ -167,7 +182,9 @@ nav .linksmenu a:hover{
     justify-content: center;
     align-items: center;
     height: 500px;
+    margin-bottom: 50px;
 }
+
 .quemsou .fundo{
     background: black url('../imagens/raio.png') center center no-repeat scroll;
     background-size: cover;
@@ -207,6 +224,7 @@ nav .linksmenu a:hover{
     height: 200px;
    
 }
+
 .quemsou .fundo .foto img{
     height: 250px;
     float: right;
@@ -223,6 +241,7 @@ nav .linksmenu a:hover{
     justify-content: center;
     align-items: center;
 }
+
 .oquefaco .conteudofaco{
     background: black url('../imagens/balao.png') center center no-repeat scroll;
     background-size: cover;
@@ -232,6 +251,7 @@ nav .linksmenu a:hover{
     justify-content: center;
     align-items: center;
 }
+
 .oquefaco .conteudofaco .descricao{
     width: 60%;
     height: 200px;
@@ -250,6 +270,7 @@ nav .linksmenu a:hover{
     justify-content: center;
     align-items: center;
 }
+
 .paixoes .slide{
     position: relative;
     height: 80%;
@@ -269,6 +290,7 @@ nav .linksmenu a:hover{
     justify-content: center;
     align-items: center;
   }
+
   .paixoes .slide swiper-container swiper-slide .cards{
    display: flex;
    justify-content: center;
@@ -283,21 +305,27 @@ nav .linksmenu a:hover{
  .card1{
     background-image: url(../imagens/raio.png);
  }
+
  .card2{
     background-image: url(../imagens/6.png);
  }
+
  .card3{
     background-image: url(../imagens/5.png);
  }
+
  .card4{
     background-image: url(../imagens/3.png);
  }
+
  .card5{
     background-image: url(../imagens/4.png);
  }
+
  .card6{
     background-image: url(../imagens/balao.png);
  }
+
  .card7{
     background-image: url(../imagens/9.png);
  }
@@ -323,7 +351,7 @@ nav .linksmenu a:hover{
  /* Temos aqui a seção motivação */
 
 .motvacao{
-    margin: 50px 0px 0px 0px;
+    margin-top: 60px;
     width: 100%;
     height: 1020px;
     
@@ -372,6 +400,7 @@ nav .linksmenu a:hover{
     align-items: center;
     
 }
+
 .bloquinho2{
     background-image: url(../imagens/13.png);
 }
@@ -384,6 +413,7 @@ nav .linksmenu a:hover{
 .bloquinho3{
     background-image: url(../imagens/16.png);
 }
+
 .bloquinho6{
     background-image: url(../imagens/14.png);
 
@@ -412,16 +442,16 @@ nav .linksmenu a:hover{
 
 
 .contato{
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 30px 0px;
     width: 100%;
     height: 500px;
-    background-color: var(--cor2);
     background: black url('../imagens/9.png') center center no-repeat scroll;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .contato .celular{
     width: 50%;
     height: 90%;
@@ -432,8 +462,58 @@ nav .linksmenu a:hover{
     align-items: center;
 
 }
+
 .contato .celular iframe{
     width: 153px;
     height: 300px;
     background-color: var(--cor2);
+}
+
+/* Rodapé do nosso site*/
+
+footer{
+ 
+    height: 100px;
+    width: 100%;
+    font-family: var(--fontmenu);
+    background-color: var(--cor1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  
+}
+
+.rodape{
+
+    width: 35%;
+    height: 100%;
+    border: dashed var(--cor3) 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rodape p{
+
+    color: var(--cor3);
+    height: 3%;
+    padding: 40px;
+    font-size: 0.7em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rodape p  a{
+    margin-left: 20px;
+    font-size: 13px;
+    color: var(--cor2);
+    
+}
+.rodape p i{
+    font-size: 30px;
 }
