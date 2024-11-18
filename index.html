@@ -8,24 +8,27 @@
     <!-- Esse é o nosso link de css com as principais características levando em consideração a orientação ao mobile first-->
     <link rel="stylesheet" href="../apresentacao/css/mobilefirst.css">
 
+    <!-- Essas configurações são configurações pontuais para as demais midias-->
+     <link rel="stylesheet" href="../apresentacao/css/demaismideas.css">
+
     <!-- importação de iocnes pelo awasome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 <body>
     <!--imagem para o menu responsivo versão mobile-->
-    <div class="imagemmenu">
+    <div class="imagemmenu" id="menu">
 
     </div>
 
     <nav> <!--menu de navegação-->
-       <ul class="linksmenu">
+       <ul class="linksmenu" >
 
         <li class="itensdebaixo"><a href="">Quem sou </a</li>
-        <li class="itensdecima"><a href="">O que faço</a></li> 
-        <li class="itensdebaixo"><a href="">paixões</a></li>
-        <li class="itensdecima"><a href="">Motivações</a></li>
-        <li class="itensdebaixo"><a href="">Contato</a></li>
+        <li class="itensdecima"><a href="#oquefaco">O que faço</a></li> 
+        <li class="itensdebaixo"><a href="#paixoes">paixões</a></li>
+        <li class="itensdecima"><a href="#motivacao">Motivações</a></li>
+        <li class="itensdebaixo"><a href="#contato">Contato</a></li>
        
        </ul>
     </nav>
@@ -36,11 +39,9 @@
             <div class="fundo">
                 <div class="ficha">
                     <ul>
-                        <li>çlkngçakndçks,jhvkjhgkjhgjhhçfdkln</li>
-                        <li>alkdhçadhfçkcsvbnlknvlksnlkvnblkjnla</li>
-                        <li>alkdjblakjbdlakjslfkngçslkngfçlknskb</li>
-                        <li>alkndflkabnldkjsknfçknsçkfnfdlkskfnb</li>
-                        <li>lakjbdflajbdldfklnslknflksgnklfgkkjb</li>
+                        <li>Nome:  Israel Antonio da Silva</li>
+                        <li>Idade: 25 anos</li>
+                        <li>Desenvolvedor fornt end</li>
                     </ul>
                 </div>
                 <div class="foto">
@@ -52,7 +53,7 @@
     
     
         <!--Segunda seção: o que eu faço-->
-        <h2 class="ladoesquerdo">O que faço</h2>
+        <h2 class="ladoesquerdo" id="oquefaco">O que faço</h2>
         <section class="oquefaco">
             <div class="conteudofaco">
                 <iframe src="../apresentacao/páginas extras/oquefaco.html" frameborder="0" class="descricao"></iframe>
@@ -62,44 +63,49 @@
     
         <!-- Terceira seção : paixões-->
     
-        <h2  class="ladodireito">Paixões</h2>
+        <h2  class="ladodireito" id="paixoes">Paixões</h2>
         <section class="paixoes">
         <div class="slide">
     
             <swiper-container class="mySwiper" navigation="true">
                 <swiper-slide>
                     <div class="cards card1" >
-                        <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
+                        <p>Desenhar é uma das minhas grandes paixões. Embora atualmente não esteja praticando tanto, é algo que me faz bem. Talento trazido da infância e um fator muito positivo para quem gosta de trabalhar com a criação de interfaces. </p>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
-                     <div class="cards card2">
-                        <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
+                    <div class="cards card2" >
+                        <p><img src="imagens/18.png" alt=""> </p>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
                      <div class="cards card3">
-                        <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
+                        <p>Sempre tive muito geito para educação, sendo essa uma das minhas paixões. Estive atuando na educação básica até recentemente, porém, seguirei algo voltado para a área de tecnologia, coisa que sempre foi meu grande sonho. Devo dizer que sou um potencial professor para o ensino das novas tecnologias. </p>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
-                     <div class="cards card4">
-                       <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
+                    <div class="cards card4">
+                       <p><img src="imagens/19.png" alt=""></p>
+                   </div>
+               </swiper-slide>
+                <swiper-slide>
+                     <div class="cards card5">
+                        <p>Ler um bom livro também é uma boa pedida. atualmente não tenho tido tanto tempo, porém, quando se trata de temas e gêneros que gosto, realmente mergulho na história, e não é clichê quando dizem que ler é viajar sem sair do lugar.</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="cards card6">
+                       <p> <img src="imagens/20.png" alt=""></p>
+                   </div>
+               </swiper-slide>
+                <swiper-slide>
+                     <div class="cards card7">
+                       <p>Adoro jogos de fps e também de rpg. Pode-se dizer que quando em equipe me destaco como um ótimo suporte em ambos os casos</p>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
                      <div class="cards  card5">
-                         <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                     <div class="cards card6">
-                        <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="cards card7">
-                        <p>lkasdglahflçadlskjdflgkhlfdhjg</p>
+                         <p><img src="imagens/21.png" alt=""></p>
                     </div>
                 </swiper-slide>
               </swiper-container>
@@ -109,17 +115,17 @@
         </section>
     
          <!-- Quarta seção : motivações-->
-         <h2  class="ladoesquerdo">Motivacao</h2>
+         <h2  class="ladoesquerdo" id="motivacao">Motivacao</h2>
     
          <section class="motvacao">
     
             <div class="bloco1">
                 <div class="bloquinho1 cont">
-                    <p>laafdojfdoai dsogidsiog ssdfjçgo</p>
+                    <p>desenvolvimento profissional e valorização no mercado de trabalho.</p>
     
                 </div>
                 <div class="bloquinho2 cont">
-                    <p>laafdojfdoai dsogidsiog ssdfjçgo</p>
+                    <p>Conhecer pessoas da área para troca de experiências,  melhorar a capacidade comunicativa e as relações sociais </p>
     
                 </div>
     
@@ -129,13 +135,13 @@
     
                 </div>
                 <div class="bloquinho4 cont">
-                    <p>laafdojfdoaidsogidsiog ssdfjçgo</p>
+                    <p>Pôr em prática habilidades já adquiridas, fazendo aprimoramento das mesmas.</p>
                 </div>
             </div>
     
             <div class="bloco3">
                 <div class="bloquinho7 cont3">
-                    <p>laafdojfdoai dsogidsiog csfdsbffdvsdfdvsssdfjçgo</p>
+                    <p>Inteirar-se sobre o funcionamento do mercado para esse setor e as principais necessidades dele, podendo contribuir com ideias que sejam inovadoras e que possam trazer transformação.</p>
                 </div>
             </div>
     
@@ -149,7 +155,7 @@
     
         <!-- quinta seção : contato-->
     
-        <h2  class="ladodireito">Contato</h2>
+        <h2  class="ladodireito" id="contato">Contato</h2>
     
          <section class="contato">
     
@@ -163,14 +169,15 @@
     
          </section>
          <!-- footer da página-->
-         <h2  class="ladodireito"><a href="">voltar ao topo </a></h2>
+         <h2  class="ladodireito"><a href="#menu">voltar ao topo </a></h2>
     
      </main>
      <footer>
 
-        <div class="rodape"><p> Criado em2024</p></div>
-        <div class="rodape"><p>Desenvolvido por: <a href="">israel antonio da silva</a>  </p></div>
-        <div class="rodape"><p>Disponível em:<a href=""> <i class="fa-brands fa-github"></i></a></p></div>
+        <div class="rodape"><p> Criado em 2024</p></div>
+        <div class="rodape"><p>Desenvolvido por: <a href="https://www.linkedin.com/in/
+            israel-antonio-da-silva-5b15462a0" target="_blank">israel antonio</a>  </p></div>
+        <div class="rodape"><p>Disponível em:<a href="https://github.com/isrraelantonio" target="_blank"> <i class="fa-brands fa-github"></i></a></p></div>
 
      </footer>
 
