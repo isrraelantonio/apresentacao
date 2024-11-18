@@ -60,8 +60,14 @@ h2{
     width: 40%;
     margin-bottom: 20px;
     text-align: center;
+    padding: 5px;
     
 
+}
+.questao{
+    width: 90%;
+    margin: 0px auto 20px auto;
+   
 }
 
 p{
@@ -78,6 +84,7 @@ p{
 
  a{
     text-decoration: none;
+    color: var(--cor1);
  }
 
 
@@ -215,10 +222,11 @@ nav .linksmenu a:hover{
 }
 
 .quemsou .fundo .foto img{
-    height: 250px;
+    height: 130%;
     float: right;
     margin-right: 20px;
     transform: translate(0px, -10px);
+    border: var(--cor1) dashed 4px;
 }
 
 /* secão o que faço*/
@@ -226,7 +234,7 @@ nav .linksmenu a:hover{
 .oquefaco{
    
     width: 100%;
-    height: 500px;
+    height: 440px;
 }
 
 .oquefaco .conteudofaco{
@@ -334,9 +342,9 @@ nav .linksmenu a:hover{
  /* Temos aqui a seção motivação */
 
 .motvacao{
-    margin-top: 60px;
+  
     width: 100%;
-    height: 1020px;
+    height: 1110px;
     
  }
 
