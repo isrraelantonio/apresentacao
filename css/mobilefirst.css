@@ -39,7 +39,8 @@
 }
 
 ::-webkit-scrollbar{
-    width: 0px;
+    width: 0%;
+    height: 0%;
 }
 
 
@@ -179,10 +180,7 @@ nav .linksmenu a:hover{
 
 /* secão Dados pessoais da nossa página*/
 
-main{
-    width: 98%;
-    margin: auto;
-}
+
 
 .quemsou {
     width: 100%;
