@@ -64,6 +64,7 @@ h2{
     border: solid var(--cor1) 2px;
     width: 40%;
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
     padding: 5px;
     
@@ -181,6 +182,13 @@ nav .linksmenu a:hover{
 /* secão Dados pessoais da nossa página*/
 
 
+main{
+    width: 69%;
+    margin: auto;
+}
+
+
+
 
 .quemsou {
     width: 100%;
@@ -214,7 +222,7 @@ nav .linksmenu a:hover{
     color: var(--cor1);
     list-style: none;
     padding: 2px 0px;
-    width: 300px;
+    width: 250px;
     margin: 0px 0px 19px 0px;
     background-color: var(--cor3);
     border: solid var(--cor1) 2px;
