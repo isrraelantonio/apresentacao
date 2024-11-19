@@ -38,6 +38,10 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+}
+
 
 h2.ladoesquerdo{
 

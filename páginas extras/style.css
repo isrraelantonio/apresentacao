@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@font-face {
+
+    font-family: 'KOMIKJI';
+    src: url('../fonte/KOMIKJI_.ttf') format('truetype');
+}
+
+:root{
+
+    --cor1: #000000;
+    --fontconteudo: 'KOMIKJI', cursiva;
+    
+}
+p{
+    font-family: var(--fontconteudo);
+    font-size: 0.9em;
+    color: var(--cor1);
+    text-align: center;
+}
