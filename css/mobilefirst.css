@@ -109,3 +109,59 @@ nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .car
 
    
 }
+
+/* Diz respeito a todo o meu de navegação.*/
+
+nav{
+    padding: 5px 0px;
+    height: 100px;
+}
+
+nav ul{
+    width: 100%;
+    background-color: var(--cor2);
+    padding: 15px 0px;
+}
+
+
+nav li:not(:last-child){
+    margin-right: -30px;
+}
+
+nav li{
+    background-color: var(--cor3);
+    display: inline-block;
+    width: 19%;
+    border: solid var(--cor1) 2px;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+nav li:hover{
+    background-color: var(--cor1);
+    border: solid var(--cor3) 2px;
+    transition: 1s;
+}
+
+nav .itensdecima{
+    transform: translate(0px, -30px);
+   
+}
+
+nav .itensdebaixo{
+    transform: translate(0px, 30px);
+  
+}
+
+nav a{
+  
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: var(--fontconteudo);
+    
+}
+
+nav .linksmenu a:hover{
+    color: var(--cor3);
+}
