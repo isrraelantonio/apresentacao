@@ -100,3 +100,12 @@ nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .car
     align-items: center;
 }
 /*------------------------------------------------------------------------------------------------------*/
+
+/* bloco vermelho acima do menu */
+
+.imagemmenu{
+    background-color: var(--cor2);
+    height: 40px;
+
+   
+}
