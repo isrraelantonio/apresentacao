@@ -89,3 +89,14 @@ p{
     text-decoration: none;
     color: var(--cor1);
  }
+
+ /*Configuração para a div com imagem para os dispositivos móveis*/
+
+
+/*  Essa configuração diz respeito as seções ou elemetos que necessitem que seus itens sejam alinhados ao centro, tanto na vertical como na horizontal. Em caso de mudanças sobre a disposição desses elemetos, será necessário retirar o elemento em questão dessa seleção.*/
+nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .cards p, .contato, .celular, footer, .rodape, .rodape p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*------------------------------------------------------------------------------------------------------*/
