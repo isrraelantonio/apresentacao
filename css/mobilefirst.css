@@ -94,7 +94,7 @@ p{
 
 
 /*  Essa configuração diz respeito as seções ou elemetos que necessitem que seus itens sejam alinhados ao centro, tanto na vertical como na horizontal. Em caso de mudanças sobre a disposição desses elemetos, será necessário retirar o elemento em questão dessa seleção.*/
-nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .cards p, .contato, .celular, footer, .rodape, .rodape p{
+nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .cards p, .contato, .celular, footer, .rodape, .rodape p, main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,11 +107,16 @@ nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .car
     background-color: var(--cor2);
     height: 40px;
 
+
    
 }
 
+
 /* Diz respeito a todo o meu de navegação.*/
 
+main{
+    width: 90%;
+}
 nav{
     padding: 5px 0px;
     height: 100px;
