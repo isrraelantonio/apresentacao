@@ -1,1 +1,31 @@
 
+@charset "utf-8";
+
+/*Importações */
+
+/* Importação de fontes internas*/
+@font-face {
+
+    font-family: 'KOMIKJI';
+    src: url('../fonte/KOMIKJI_.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'HB';
+    src: url('../fonte/HB.otf') format('opentype');
+}
+
+
+/*Concigurações gerais*/
+
+
+:root{
+
+    --cor1: #000000;
+    --cor2: #e53939;
+    --cor3: #ffffff;
+
+    --fontmenu: 'HB', cursiva;
+    --fontconteudo: 'KOMIKJI', cursiva;
+    
+}
