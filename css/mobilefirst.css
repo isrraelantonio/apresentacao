@@ -41,3 +41,51 @@
     height: 0px;
 
 }
+
+h2.ladoesquerdo{
+    float: left;
+    margin-left: 30px;
+}
+
+h2.ladodireito{
+    float: right;
+    margin-right: 30px;
+}
+
+h2{
+    color: var(--cor1);
+    font-family: var(--fontmenu);
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 1.2em;
+    border: solid var(--cor1) 2px;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+.questao{
+    width: 90%;
+    margin: 0px auto 20px auto;
+   
+}
+
+p{
+    font-family: var(--fontconteudo);
+    font-size: 0.9em;
+    color: var(--cor1);
+    text-align: center;
+}
+
+ li{
+    font-family: var(--fontconteudo);
+    font-size: 0.7;
+ }
+
+ a{
+    text-decoration: none;
+    color: var(--cor1);
+ }
