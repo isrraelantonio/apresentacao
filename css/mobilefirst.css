@@ -106,6 +106,7 @@ nav ul, .quemsou, .oquefaco, .conteudofaco, .paixoes, swiper-slide, .cards, .car
 .imagemmenu{
     background-color: var(--cor2);
     height: 40px;
+    width: 100vh;
 
 
    
