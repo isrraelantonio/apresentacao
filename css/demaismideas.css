@@ -1,53 +1,55 @@
 @charset "utf-8";
 
-@media screen and (min-width: 700px) and (max-width: 900px){
+@media screen and (max-width: 700px){
 
-    .oquefaco .conteudofaco .descricao{
-        width: 55%;
-    }
-    
+    /* Diz respeito a todo o meu de navegação.*/
 
-}
-
-@media screen  and (min-width: 700px){
-
-    main{
-        width: 66%;
-        margin: auto;
-    }
-
-    nav{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     nav ul{
-        width: 70%;
+        width: 100%;
+        padding: 9px 0px;
     }
-    
-   
 
-}
-
-@media screen  and (min-width:901px){
-
-    .oquefaco .conteudofaco .descricao{
-        width: 50%;
-    }
-    main{
-        width: 50%;
-        margin: auto;
-    }
     nav li{
-        width: 13%;
+        width: 14%;
+        font-size: 12px;
+    }
+
+    /* secão Dados pessoais da nossa página*/
+    .quemsou .fundo{
+        width: 90%;
        
     }
-
+    .quemsou .fundo .ficha ul{
+  
+        margin: 30px 0px 0px 30px;
     }
 
+    .quemsou .fundo .ficha{
+        height: 180px;
+       
+    }
+    .quemsou .fundo .ficha ul li{
+        width: 200px;
+        font-size: 12px;
+    
+    }
+    .quemsou .fundo .foto{
+        height: 180px;
+       
+    }
+    
+    .quemsou .fundo .foto img{
+        transform: translate(50px, -10px);
+    }
+    
+    
 
 
+
+
+
+
+}
 
 
 
