@@ -42,7 +42,40 @@
         transform: translate(50px, -10px);
     }
     
+    /* secão o que faço*/
+
+    .oquefaco .conteudofaco{
+        width: 90%;
+       
+    }
     
+    .oquefaco .conteudofaco .descricao{
+        width: 80%;
+       
+    }
+    /* secãop paixões*/
+
+    .paixoes .slide{
+        height: 80%;
+        width: 100%;
+    }
+    
+    .paixoes .slide swiper-container swiper-slide {
+        text-align: center;
+        font-size: 10px;
+        
+      }
+    
+      .paixoes .slide swiper-container swiper-slide .cards{
+       height: 90%;
+       width: 60%;
+     }
+
+     .paixoes .slide swiper-container swiper-slide .cards p{
+        font-size: 12px;
+     }
+
+
 
 
 
