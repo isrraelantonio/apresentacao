@@ -142,6 +142,146 @@
 
 }
 
+@media screen and (min-width: 701px) and (max-width: 1080px){
 
+    h2{
+      
+        font-size: 17px;
+
+    }
+
+    /* Diz respeito a todo o meu de navegação.*/
+
+    nav ul{
+        width: 70%;
+        padding: 9px 0px;
+    }
+
+    nav li{
+        width: 14%;
+        font-size: 13px;
+    }
+
+    /* secão Dados pessoais da nossa página*/
+    .quemsou .fundo{
+        width: 90%;
+       
+    }
+    .quemsou .fundo .ficha ul{
+  
+        margin: 30px 0px 0px 30px;
+    }
+
+    .quemsou .fundo .ficha{
+        height: 190px;
+       
+    }
+    .quemsou .fundo .ficha ul li{
+        width: 240px;
+        font-size: 13px;
+    
+    }
+    .quemsou .fundo .foto{
+        height: 190px;
+       
+    }
+    
+    .quemsou .fundo .foto img{
+        transform: translate(50px, -10px);
+    }
+    
+    /* secão o que faço*/
+
+    .oquefaco .conteudofaco{
+        width: 90%;
+       
+    }
+    
+    .oquefaco .conteudofaco .descricao{
+        width: 50%;
+       
+    }
+    /* secãop paixões*/
+
+    .motvacao{
+  
+        width: 100%;
+        height: 920px;
+        
+     }
+
+    .paixoes .slide{
+        height: 80%;
+        width: 100%;
+    }
+    
+    .paixoes .slide swiper-container swiper-slide {
+        text-align: center;
+        font-size: 10px;
+        
+      }
+    
+      .paixoes .slide swiper-container swiper-slide .cards{
+       height: 90%;
+       width: 60%;
+     }
+
+     .paixoes .slide swiper-container swiper-slide .cards p{
+        font-size: 12px;
+     }
+
+     /* Temos aqui a seção motivação */
+
+     .bloco1, .bloco2,  .bloco3, .bloco4{
+        height: 200px;
+     }
+
+     .motvacao p{
+         font-size: 12px;
+     }
+     
+     
+    /* Temos aqui a seção contato */
+
+
+    .contato{
+        width: 90%;
+        height: 500px;
+    }
+
+    .contato .celular{
+        width: 80%;
+        height: 100%;
+    }
+
+    /* Rodapé do nosso site*/
+
+    footer{
+        height: 100px;
+        width: 100%;
+        font-family: var(--fontmenu);
+        background-color: var(--cor1); 
+    }
+
+    .rodape{
+        width: 35%;
+        height: 100%;
+        border: dashed var(--cor3) 2px;
+    }
+
+    .rodape p{
+        font-size: 9px;
+    }
+
+
+    .rodape p  a{
+        font-size: 10px;
+    }
+
+    .rodape p i{
+        font-size: 16px;
+    }
+
+}
 
 
