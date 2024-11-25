@@ -35,6 +35,7 @@
 .caixa li{
     width: 100%;
     margin-top: 5px;
+    font-size: 10px;
 }
 
 .caixa li a{
